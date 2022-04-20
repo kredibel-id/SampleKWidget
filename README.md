@@ -2,6 +2,8 @@
 
 Easy use form widget components with material design.
 
+<img width="400dp" src="https://github.com/kredibel-id/SampleKWidget/blob/main/ezgif-2-204eb5c2f1.gif?raw=true"/>
+
 ## Getting started
 ### Support API Level
 ![minsdk](https://img.shields.io/badge/Min%20SDK-API%2021-%233DDC84?logo=android) ![targetsdk](https://img.shields.io/badge/Max%20Support-API%2031-%233DDC84?logo=android)
