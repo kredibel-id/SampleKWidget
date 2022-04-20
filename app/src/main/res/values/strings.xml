@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">SampleKWidget</string>
+  <string-array name="platform">
+    <item>Lainnya</item>
+    <item>Instagram</item>
+    <item>Line</item>
+    <item>Facebook</item>
+    <item>Twitter</item>
+    <item>WhatsApp</item>
+    <item>BBM</item>
+    <item>Situs Web</item>
+    <item>Aplikasi Mobile</item>
+  </string-array>
+</resources>
