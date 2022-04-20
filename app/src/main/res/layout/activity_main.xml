@@ -26,14 +26,12 @@
   <io.kredibel.widget.KSpinner
       android:layout_width="200dp"
       android:layout_height="wrap_content"
-      android:text="Hello World!"
       android:entries="@array/platform"
       android:layout_marginVertical="16dp"/>
 
   <io.kredibel.widget.KSpinner
       android:layout_width="200dp"
       android:layout_height="wrap_content"
-      android:text="Hello World!"
       android:entries="@array/platform"
       android:layout_marginVertical="16dp"/>
 
