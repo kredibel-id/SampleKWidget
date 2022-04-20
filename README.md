@@ -1,6 +1,8 @@
-# KWidget
+# KWidget Sample
+This is an example project of using KWidget on an android application.
 
-Easy use form widget components with material design.
+## What is KWidget?
+Easy use form widget components with material design which contains from KEditText and KSpinner
 
 <img width="400dp" src="https://github.com/kredibel-id/SampleKWidget/blob/main/ezgif-2-204eb5c2f1.gif?raw=true"/>
 
