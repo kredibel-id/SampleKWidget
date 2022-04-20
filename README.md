@@ -8,7 +8,7 @@ Easy use form widget components with material design which contains from KEditTe
 
 ## Getting started
 ### Support API Level
-![minsdk](https://img.shields.io/badge/Min%20SDK-API%2021-%233DDC84?logo=android) ![targetsdk](https://img.shields.io/badge/Max%20Support-API%2031-%233DDC84?logo=android)
+![minsdk](https://img.shields.io/badge/Min%20SDK-API%2019-%233DDC84?logo=android) ![targetsdk](https://img.shields.io/badge/Max%20Support-API%2031-%233DDC84?logo=android)
 
 
 ## Setup
