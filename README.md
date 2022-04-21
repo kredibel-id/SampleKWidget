@@ -20,7 +20,7 @@ maven{url 'https://repo.repsy.io/mvn/kredibel/sdk'}
 #### 2. Add this dependency to gradle script on app module.
 ```groovy
 dependencies {
-    implementation 'io.kredibel:widget:0.0.2' // Please check latest version
+    implementation 'io.kredibel:widget:0.0.3' // Please check latest version
 }
 ```
 
