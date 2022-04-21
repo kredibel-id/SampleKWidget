@@ -16,27 +16,6 @@ Easy use form widget components with material design which contains from KEditTe
 ```groovy
 maven{url 'https://repo.repsy.io/mvn/kredibel/sdk'}
 ```
-You can do this in two alternative ways.
-- Latest way(Gradle 7+) : Add repository in dependencyResolutionManagement in setting.gradle.
-```groovy
-dependencyResolutionManagement {
-    repositories {
-        ...
-        ...
-        maven{url 'https://repo.repsy.io/mvn/kredibel/sdk'} // <—-- add this
-    }
-}
-```
-- Old way : Add repository in build.gradle file at Project level.
-```groovy
-allprojects {
-    repositories {
-       ...
-       ...
-       maven{url 'https://repo.repsy.io/mvn/kredibel/sdk'} // <—-- add this 
-    }
-}
-```
 
 #### 2. Add this dependency to gradle script on app module.
 ```groovy
@@ -46,13 +25,15 @@ dependencies {
 ```
 
 ## How to Use
+### KEditText
 ```xml
 <io.kredibel.widget.KEditText
       android:hint="Ketik Nama disinih.."
       android:layout_width="200dp"
       android:layout_height="wrap_content"/>
 ```
-      
+
+### KSpinner
 ```xml
 <io.kredibel.widget.KSpinner
       android:layout_width="200dp"
@@ -60,7 +41,7 @@ dependencies {
       android:entries="@array/platform"/>
 ```      
 
-## Custom Color Hint
+### Set Hint Color
 You can customize color by adding the following key to your color resource xml.
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -70,4 +51,10 @@ You can customize color by adding the following key to your color resource xml.
   <color name="common_color_focused">#0169FF</color>
   <color name="common_color_bg">#F3F5F8</color>
 </resources>
+```
+
+### Border Width
+You can customize border width by adding the following key to your dimens resource xml.
+```xml
+<dimen name="common_kwidget_border_width">1.5dp</dimen>
 ```
